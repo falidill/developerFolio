@@ -92,32 +92,32 @@ const techStack = {
 };
 
 // Work Experience
-const workExperiences = {
-  display: true,
-  experience: [
-    {
-      role: "JEDI Data Science Fellow",
-      company: "University of New Haven",
-      image: require("./assets/images/data1.png"),
-      date: "Feb 2024 – May 2025",
-      desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards."
-    },
-    {
-      role: "Data Science Analyst",
-      company: "Allied Health Professions Council, Ghana",
-      image: require("./assets/images/data2.webp"),
-      date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 3,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
-    },
-    {
-      role: "Data Analyst",
-      company: "Ho Technical University, Ghana",
-      image: require("./assets/images/data3.jpg"),
-      date: "Dec 2018 – Dec 2020",
-      desc: "Led curriculum impact analysis, digitized records using relational models, and produced actionable trend reports."
-    }
-  ]
-};
+const experience = [
+  {
+    role: "JEDI Data Science Fellow",
+    company: "University of New Haven",
+    image: require("./assets/images/data1.png"), // Ensure this file exists
+    imageAlt: "University of New Haven",
+    date: "Feb 2024 – May 2025",
+    desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards."
+  },
+  {
+    role: "Regulatory Data Analyst",
+    company: "Allied Health Professions Council, Ghana",
+    image: require("./assets/images/data2.webp"), // Ensure this file exists
+    imageAlt: "Allied Health Professions Council Logo",
+    date: "Dec 2020 – Jul 2023",
+    desc: "Streamlined workflows for 3,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
+  },
+  {
+    role: "Data Analyst",
+    company: "Ho Technical University, Ghana",
+    image: require("./assets/images/data3.jpg"), // Ensure this file exists
+    imageAlt: "Ho Technical University Logo",
+    date: "Dec 2018 – Dec 2020",
+    desc: "Led curriculum impact analysis, digitized records using relational models, and produced actionable trend reports."
+  }
+];
 
 // Open Source
 const openSource = {

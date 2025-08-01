@@ -96,11 +96,15 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "JEDI Data Science Fellow",
+      role: "Data Science Fellow",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
-      desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards."
+      desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards.",
+      descBullets: [
+        "Developed Power BI dashboards for student retention",
+        "Collaborated with university leadership on DEI strategy"
+      ]
     },
     {
       role: "Data Science Analyst",
@@ -112,13 +116,12 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "Ho Technical University, Ghana",
-      companylogo: require("./assets/images/data3.png"), // Rename to .png if needed
+      companylogo: require("./assets/images/data3.jpg"),
       date: "Dec 2018 – Dec 2020",
       desc: "Led curriculum impact analysis, digitized records using relational models, and produced actionable trend reports."
     }
   ]
 };
-
 // Open Source
 const openSource = {
   showGithubProfile: "true",

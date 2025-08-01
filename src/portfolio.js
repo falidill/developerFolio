@@ -98,21 +98,21 @@ const workExperiences = {
     {
       role: "JEDI Data Science Fellow",
       company: "University of New Haven",
-      companylogo: "",
+      image: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
       desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards."
     },
     {
       role: "Data Science Analyst",
       company: "Allied Health Professions Council, Ghana",
-      companylogo: "",
+      image: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",
       desc: "Streamlined workflows for 3,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
     },
     {
       role: "Data Analyst",
       company: "Ho Technical University, Ghana",
-      companylogo: "",
+      image: require("./assets/images/data3.jpg"),
       date: "Dec 2018 – Dec 2020",
       desc: "Led curriculum impact analysis, digitized records using relational models, and produced actionable trend reports."
     }
@@ -216,14 +216,14 @@ const achievementSection = {
     },
     {
       title: "More Certifications",
-      subtitle: `• Machine Learning with Scikit-learn – LinkedIn Learning
-• Predictive Analytics: Data Mining – LinkedIn Learning
-• SQL Essentials (2019) – LinkedIn Learning
-• Data Science Foundations – LinkedIn Learning
-• DevOps for Data Scientists – LinkedIn Learning
-• MLOps Essentials – LinkedIn Learning
-• SQL Essential Training – LinkedIn Learning
-• Graph Databases: Neo4j – Neo4j Academy
+      subtitle: `• Machine Learning with Scikit-learn
+• Predictive Analytics: Data Mining 
+• SQL Essentials (2019)
+• Data Science Foundations
+• DevOps for Data Scientists
+• MLOps Essentials
+• SQL Essential Training
+• Graph Databases: Neo4j
 • Data Literacy – DataCamp`,
       image: require("./assets/images/linkedin.png"), // Or use a generic badge
       imageAlt: "More Certifications",

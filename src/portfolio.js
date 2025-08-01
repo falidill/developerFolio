@@ -195,12 +195,18 @@ const resumeSection = {
   display: true
 };
 
+const openSource = {
+  showGithubProfile: "true", // or "false" if you don’t want your GitHub info shown
+  display: false // Set to true if you want this section visible
+};
+
 export {
   greeting,
   socialMediaLinks,
   skillsSection,
   educationInfo,
   workExperiences,
+  openSource, // ✅ This is the missing line
   bigProjects,
   achievementSection,
   blogSection,

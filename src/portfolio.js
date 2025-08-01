@@ -126,12 +126,24 @@ const openSource = {
 };
 
 // Projects
+
 const bigProjects = {
-  title: "Projects",
-  subtitle: "Real-World Applications and Solutions",
+  title: "My Projects",
+  subtitle: "Products and Initiatives I’ve Helped Create",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/matchlab.png"), // Upload your logo if not yet added
+      projectName: "MatchLab",
+      projectDesc: "A platform to connect students and professionals based on projects, skills, and research interests.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://matchlabhub.carrd.co/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fakenews.png"), // Replace with your own if needed
       projectName: "Fake News Detection (Capstone)",
       projectDesc: "NLP pipeline using BERT & RoBERTa with 90%+ accuracy. Includes MLOps pipeline for deployment.",
       footerLink: [
@@ -142,7 +154,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/insurance.webp"), // Optional: use a better image if you have
       projectName: "Insurance Charges Prediction App",
       projectDesc: "Streamlit app that predicts medical insurance costs based on user input like age and BMI.",
       footerLink: [
@@ -153,8 +165,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Portfolio Website",
+      image: require("./assets/images/portfolio.png"), // Optional: change to screenshot of site
+      projectName: "Portfolio Website,Fali Honutse",
       projectDesc: "My original portfolio built using HTML, CSS, and JavaScript, hosted on GitHub Pages.",
       footerLink: [
         {
@@ -167,30 +179,54 @@ const bigProjects = {
   display: true
 };
 
+
+
 // Achievements
 const achievementSection = {
-  title: emoji("Achievements & Certifications 🏆"),
+  title: emoji("Honors & Certifications 🏆"),
   subtitle: "Here are some highlights and credentials I’ve earned.",
   achievementsCards: [
     {
       title: "Oracle Certified Foundations Associate",
       subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/oracleuniversity.jpg"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
-      title: "Dean's List & Order of the Engineer",
+      title: "Order of the Engineer",
       subtitle: "University of New Haven",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/orderoftheengineer.png"),
+      imageAlt: "Honors",
+      footerLink: []
+    },
+    {
+      title: "Dean's List",
+      subtitle: "University of New Haven",
+      image: require("./assets/images/unhlogo.png"),
       imageAlt: "Honors",
       footerLink: []
     },
     {
       title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Completed through Forage",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/delloitte.png"),
       imageAlt: "Virtual Internship",
+      footerLink: []
+    },
+    {
+      title: "More Certifications",
+      subtitle: `• Machine Learning with Scikit-learn – LinkedIn Learning
+• Predictive Analytics: Data Mining – LinkedIn Learning
+• SQL Essentials (2019) – LinkedIn Learning
+• Data Science Foundations – LinkedIn Learning
+• DevOps for Data Scientists – LinkedIn Learning
+• MLOps Essentials – LinkedIn Learning
+• SQL Essential Training – LinkedIn Learning
+• Graph Databases: Neo4j – Neo4j Academy
+• Data Literacy – DataCamp`,
+      image: require("./assets/images/linkedin.png"), // Or use a generic badge
+      imageAlt: "More Certifications",
       footerLink: []
     }
   ],

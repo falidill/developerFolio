@@ -15,9 +15,9 @@ const illustration = {
 
 const greeting = {
   username: "Fali Honutse",
-  title: "Hi, I'm Fali 👋",
+  title: "Hi, I'm Fali Honutse",
   subTitle: emoji(
-    "Aspiring Data Scientist | Analyst | Innovator. I’m passionate about extracting insights, building impactful tools, and supporting inclusive change through data."
+    "Aspiring Data Scientist | Data Analyst | Innovator. I’m passionate about extracting insights, building impactful tools, and supporting inclusive change through data."
   ),
   resumeLink: "", // We'll add this later
   displayGreeting: true
@@ -73,7 +73,7 @@ const educationInfo = {
       schoolName: "KNUST, Ghana",
       logo: "",
       subHeader: "M.S. in Accounting & Finance | B.Sc. in Actuarial Science",
-      duration: "2012 - 2022",
+      duration: "2017 - 2022",
       desc: "Gained solid foundations in modeling, statistics, and financial analysis."
     }
   ]
@@ -83,7 +83,7 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Data Science & ML", progressPercentage: "85%" },
+    { Stack: "Data Science & Machine Learning", progressPercentage: "85%" },
     { Stack: "Data Analysis & Reporting", progressPercentage: "90%" },
     { Stack: "Data Engineering & Automation", progressPercentage: "70%" }
   ],

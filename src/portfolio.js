@@ -17,7 +17,7 @@ const greeting = {
   username: "Fali Honutse",
   title: "Hi, I'm Fali Honutse",
   subTitle: emoji(
-    "Aspiring Data Scientist | Data Analyst | Innovator. I’m passionate about extracting insights, building impactful tools, and supporting inclusive change through data."
+    "Data Scientist | Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
   ),
   resumeLink: "", // We'll add this later
   displayGreeting: true
@@ -96,7 +96,7 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Data Science Fellow",
+      role: "Graduate Assistant(Data Science Fellow)",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
@@ -107,7 +107,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Science Analyst",
+      role: "Data Scientist",
       company: "Allied Health Professions Council, Ghana",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",

@@ -59,7 +59,7 @@ const educationInfo = {
   schools: [
     {
       degree: "M.S. in Data Science",
-      subHeader: "University of New Haven",
+      subHeader: "M.S. in Data Science — University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
       duration: "2023 - 2025",
       desc: "Focused on applied machine learning, NLP, and real-world data science tools.",
@@ -71,7 +71,7 @@ const educationInfo = {
     },
     {
       degree:"M.S. in Accounting & Finance | B.Sc. in Actuarial Science",
-      subHeader: "KNUST, Ghana",
+      subHeader: "M.S. in Accounting & Finance | B.Sc. in Actuarial Science, KNUST, Ghana",
       logo: require("./assets/images/knustlogo.jpg"),
       duration: "2017 - 2022",
       desc: "Gained solid foundations in modeling, statistics, and financial analysis. Developed actuarial models, performed risk assessments, and analyzed large datasets using R and Excel to inform financial decision-making."

@@ -209,9 +209,6 @@ const bigProjects = {
 };
 
 
-
-
-
 // Achievements
 const achievementSection = {
   title: emoji("Honors & Certifications 🏆"),
@@ -282,19 +279,20 @@ const achievementSection = {
     },
    
     {
-      title: "More Certifications",
-      subtitle: `• Machine Learning with Scikit-learn
+      {
+  title: "More Certifications",
+  subtitle: `• Machine Learning with Scikit-learn
 • Predictive Analytics: Data Mining 
 • SQL Essentials (2019)
 • Data Science Foundations
 • DevOps for Data Scientists
 • MLOps Essentials
 • SQL Essential Training
-• Graph Databases: Neo4j,
-      image: require("./assets/images/linkedin.png"), // Or use a generic badge
-      imageAlt: "More Certifications",
-      footerLink: []
-    }
+• Graph Databases: Neo4j`,
+  image: require("./assets/images/linkedin.png"),
+  imageAlt: "More Certifications",
+  footerLink: []
+}      
   ],
   display: true
 };

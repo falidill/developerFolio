@@ -129,13 +129,12 @@ const openSource = {
 };
 
 // Projects
-
 const bigProjects = {
   title: "My Projects",
   subtitle: "Products and Initiatives I’ve Helped Create",
   projects: [
     {
-      image: require("./assets/images/matchlab.png"), // Upload your logo if not yet added
+      image: require("./assets/images/matchlab.png"),
       projectName: "MatchLab",
       projectDesc: "A platform to connect students and professionals based on projects, skills, and research interests.",
       footerLink: [
@@ -145,24 +144,23 @@ const bigProjects = {
         }
       ]
     },
-
-{
-  image: require("./assets/images/resumematcher.png"), // Upload a logo or screenshot
-  projectName: "Resume Matcher App",
-  projectDesc: "A Streamlit app that matches your resume to a job description using NLP, cosine similarity, and scoring logic.",
-  footerLink: [
     {
-      name: "Try it Live",
-      url: "https://theresume-matcher.streamlit.app/"
+      image: require("./assets/images/resumematcher.png"),
+      projectName: "Resume Matcher App",
+      projectDesc: "A Streamlit app that matches your resume to a job description using NLP, cosine similarity, and scoring logic.",
+      footerLink: [
+        {
+          name: "Try it Live",
+          url: "https://theresume-matcher.streamlit.app/"
+        },
+        {
+          name: "View on GitHub",
+          url: "https://github.com/falidill/Resume-Matcher"
+        }
+      ]
     },
     {
-      name: "View on GitHub",
-      url: "https://github.com/falidill/Resume-Matcher" // update if different
-    }
-  ]
-},    
-    {
-      image: require("./assets/images/fakenews.png"), // Replace with your own if needed
+      image: require("./assets/images/fakenews.png"),
       projectName: "Fake News Detection (Capstone)",
       projectDesc: "NLP pipeline using BERT & RoBERTa with 90%+ accuracy. Includes MLOps pipeline for deployment.",
       footerLink: [
@@ -173,7 +171,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/insurance.webp"), // Optional: use a better image if you have
+      image: require("./assets/images/insurance.webp"),
       projectName: "Insurance Charges Prediction App",
       projectDesc: "Streamlit app that predicts medical insurance costs based on user input like age and BMI.",
       footerLink: [
@@ -184,8 +182,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/portfolio.png"), // Optional: change to screenshot of site
-      projectName: "Portfolio Website,Fali Honutse",
+      image: require("./assets/images/portfolio.png"),
+      projectName: "Portfolio Website, Fali Honutse",
       projectDesc: "My original portfolio built using HTML, CSS, and JavaScript, hosted on GitHub Pages.",
       footerLink: [
         {
@@ -197,6 +195,8 @@ const bigProjects = {
   ],
   display: true
 };
+
+
 
 
 

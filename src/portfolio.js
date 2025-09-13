@@ -131,7 +131,7 @@ const openSource = {
 // Projects
 const bigProjects = {
   title: "My Projects",
-  subtitle: "Products and Initiatives I’ve Helped Create",
+  subtitle: "Products and Initiatives I’ve Created",
   projects: [
     {
       image: require("./assets/images/matchlab.png"),
@@ -191,7 +191,19 @@ const bigProjects = {
           url: "https://falidill.github.io/portfolio-website/"
         }
       ]
+    },
+    {
+  image: require("./assets/images/kinksandkulture.png"), // Upload this image
+  projectName: "Kinks & Kulture",
+  projectDesc: "An AI-powered product discovery app that helps users find haircare products based on their hair needs and preferences.",
+  footerLink: [
+    {
+      name: "Try it Live",
+      url: "https://kinksandkulture.lovable.app/"
     }
+  ]
+}
+
   ],
   display: true
 };

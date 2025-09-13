@@ -221,7 +221,7 @@ const achievementSection = {
       imageAlt: "Oracle",
       footerLink: []
     },
-     {
+    {
       title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
       subtitle: "Credentialed by Oracle University",
       image: require("./assets/images/oracleuniversity.jpg"),
@@ -236,13 +236,13 @@ const achievementSection = {
       footerLink: []
     },
     {
-      title: "Oracle AI Vector Search  Certified Professional",
+      title: "Oracle AI Vector Search Certified Professional",
       subtitle: "Credentialed by Oracle University",
       image: require("./assets/images/oracleuniversity.jpg"),
       imageAlt: "Oracle",
       footerLink: []
-    },   
-     {
+    },
+    {
       title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Completed through Forage",
       image: require("./assets/images/delloitte.png"),
@@ -270,11 +270,9 @@ const achievementSection = {
       imageAlt: "Honors",
       footerLink: []
     },
-   
     {
-      {
-  title: "More Certifications",
-  subtitle: `• Machine Learning with Scikit-learn
+      title: "More Certifications",
+      subtitle: `• Machine Learning with Scikit-learn
 • Predictive Analytics: Data Mining 
 • SQL Essentials (2019)
 • Data Science Foundations
@@ -282,13 +280,14 @@ const achievementSection = {
 • MLOps Essentials
 • SQL Essential Training
 • Graph Databases: Neo4j`,
-  image: require("./assets/images/linkedin.png"),
-  imageAlt: "More Certifications",
-  footerLink: []
-}      
+      image: require("./assets/images/linkedin.png"),
+      imageAlt: "More Certifications",
+      footerLink: []
+    }
   ],
   display: true
 };
+
 
 // Blog Section (disabled for now)
 const blogSection = {

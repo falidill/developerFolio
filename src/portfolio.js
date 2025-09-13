@@ -206,12 +206,33 @@ const achievementSection = {
   subtitle: "Here are some highlights and credentials I’ve earned.",
   achievementsCards: [
     {
+      title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+      subtitle: "Credentialed by Oracle University",
+      image: require("./assets/images/oracleuniversity.jpg"),
+      imageAlt: "Oracle",
+      footerLink: []
+    },
+     {
+      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      subtitle: "Credentialed by Oracle University",
+      image: require("./assets/images/oracleuniversity.jpg"),
+      imageAlt: "Oracle",
+      footerLink: []
+    },
+    {
       title: "Oracle Certified Foundations Associate",
       subtitle: "Credentialed by Oracle University",
       image: require("./assets/images/oracleuniversity.jpg"),
       imageAlt: "Oracle",
       footerLink: []
     },
+    {
+      title: "Oracle AI Vector Search  Certified Professional",
+      subtitle: "Credentialed by Oracle University",
+      image: require("./assets/images/oracleuniversity.jpg"),
+      imageAlt: "Oracle",
+      footerLink: []
+    },   
     {
       title: "Order of the Engineer",
       subtitle: "University of New Haven",

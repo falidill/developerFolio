@@ -242,13 +242,6 @@ const achievementSection = {
       imageAlt: "Oracle",
       footerLink: []
     },   
-    {
-      title: "Oracle AI Vector Search  Certified Professional",
-      subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/oracleuniversity.jpg"),
-      imageAlt: "Oracle",
-      footerLink: []
-    },   
      {
       title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Completed through Forage",

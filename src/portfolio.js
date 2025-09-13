@@ -145,6 +145,22 @@ const bigProjects = {
         }
       ]
     },
+
+{
+  image: require("./assets/images/resumematcher.png"), // Upload a logo or screenshot
+  projectName: "Resume Matcher App",
+  projectDesc: "A Streamlit app that matches your resume to a job description using NLP, cosine similarity, and scoring logic.",
+  footerLink: [
+    {
+      name: "Try it Live",
+      url: "https://theresume-matcher.streamlit.app/"
+    },
+    {
+      name: "View on GitHub",
+      url: "https://github.com/falidill/Resume-Matcher" // update if different
+    }
+  ]
+},    
     {
       image: require("./assets/images/fakenews.png"), // Replace with your own if needed
       projectName: "Fake News Detection (Capstone)",

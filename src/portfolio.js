@@ -198,7 +198,7 @@ const bigProjects = {
   projectDesc: "An AI-powered product discovery app that helps users find haircare products based on their hair needs and preferences.",
   footerLink: [
     {
-      name: "Try it Live",
+      name: "Visit Website",
       url: "https://kinksandkulture.lovable.app/"
     }
   ]
@@ -246,6 +246,27 @@ const achievementSection = {
       footerLink: []
     },   
     {
+      title: "Oracle AI Vector Search  Certified Professional",
+      subtitle: "Credentialed by Oracle University",
+      image: require("./assets/images/oracleuniversity.jpg"),
+      imageAlt: "Oracle",
+      footerLink: []
+    },   
+     {
+      title: "Deloitte Data Analytics Virtual Internship",
+      subtitle: "Completed through Forage",
+      image: require("./assets/images/delloitte.png"),
+      imageAlt: "Virtual Internship",
+      footerLink: []
+    },
+    {
+      title: "Data Literacy – DataCamp",
+      subtitle: "Credentialed by DataCamp",
+      image: require("./assets/images/datacamp.png"),
+      imageAlt: "Datacamp",
+      footerLink: []
+    },
+    {
       title: "Order of the Engineer",
       subtitle: "University of New Haven",
       image: require("./assets/images/orderoftheengineer.png"),
@@ -259,13 +280,7 @@ const achievementSection = {
       imageAlt: "Honors",
       footerLink: []
     },
-    {
-      title: "Deloitte Data Analytics Virtual Internship",
-      subtitle: "Completed through Forage",
-      image: require("./assets/images/delloitte.png"),
-      imageAlt: "Virtual Internship",
-      footerLink: []
-    },
+   
     {
       title: "More Certifications",
       subtitle: `• Machine Learning with Scikit-learn
@@ -275,8 +290,7 @@ const achievementSection = {
 • DevOps for Data Scientists
 • MLOps Essentials
 • SQL Essential Training
-• Graph Databases: Neo4j
-• Data Literacy – DataCamp`,
+• Graph Databases: Neo4j,
       image: require("./assets/images/linkedin.png"), // Or use a generic badge
       imageAlt: "More Certifications",
       footerLink: []

@@ -250,7 +250,7 @@ const achievementSection = {
       footerLink: []
     },
     {
-      title: "Data Literacy – DataCamp",
+      title: "Data Literacy Certificate",
       subtitle: "Credentialed by DataCamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp",

@@ -17,7 +17,7 @@ const greeting = {
   username: "Fali Honutse",
   title: "Hi, I'm Fali Honutse",
   subTitle: emoji(
-    "Data Scientist | Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
+    "Data & Operations Analyst | Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
   ),
   resumeLink: "", // We'll add this later
   displayGreeting: true
@@ -48,6 +48,7 @@ const skillsSection = {
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
+    { skillName: "MiniTab", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" }
   ],
   display: true
@@ -85,7 +86,7 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     { Stack: "Data Science & Machine Learning", progressPercentage: "85%" },
-    { Stack: "Data Analysis & Reporting", progressPercentage: "90%" },
+    { Stack: "Data Analysis & Reporting", progressPercentage: "95%" },
     { Stack: "Data Engineering & Automation", progressPercentage: "70%" }
   ],
   displayCodersrank: false
@@ -96,24 +97,35 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Graduate Assistant(Data Science Fellow)",
+      role: "Data & Operations Analyst",
+      company: "MatchingDonors",
+      companylogo: require("./assets/images/matchingdonors.png"), // Ensure path is correct
+      date: "June 2025 – Present",
+      desc: "Optimizing global affiliate operations by centralizing data systems and delivering high-integrity analytics for better efficiency in operations.",
+      descBullets: [
+      "Standardize global databases across Salesforce, Airtable, and Excel, improving data consistency by 35% and reducing retrieval time by 40%.",
+      "Develop Power BI and Looker Studio dashboards to track performance metrics for 3000 affiliates and identify growth opportunities.",
+      "Engineer workflow solutions and automated reporting in Google Workspace to bridge process gaps between Marketing and Outreach teams."
+      ]
+    },
+  {
+      role: "Data Analyst",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
       desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards.",
       descBullets: [
         "Developed Power BI dashboards for student retention",
-        "Collaborated with university leadership on DEI strategy"
-      ]
-    },
+        "Collaborated with university leadership on student strategy"
+        },
     {
-      role: "Data Scientist",
+      role: "Data Analyst",
       company: "Allied Health Professions Council, Ghana",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 3,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
+      desc: "Streamlined workflows for 30.000+ professionals, developed dashboards, and improved outreach to underserved health workers."
     },
-    {
+    { 
       role: "Data Analyst",
       company: "Ho Technical University, Ghana",
       companylogo: require("./assets/images/data3.jpg"),
@@ -243,6 +255,13 @@ const achievementSection = {
       footerLink: []
     },
     {
+      title: "Six Sigma Green Belt",
+      subtitle: "Credentialed by The Council for Six Sigma Certification",
+      image: require("./assets/images/six_sigma_green_belt.png"),
+      imageAlt: "Six Sigma Green Belt Certified",
+      footerLink: []
+    },
+    {
       title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Completed through Forage",
       image: require("./assets/images/delloitte.png"),
@@ -261,6 +280,13 @@ const achievementSection = {
       subtitle: "University of New Haven",
       image: require("./assets/images/orderoftheengineer.png"),
       imageAlt: "Honors",
+      footerLink: []
+    },
+    {
+      title: "2026 Women In Data Science Ambassador ",
+      subtitle: "Women In Data Science WorldWide",
+      image: require("./assets/images/WiDS_.png"),
+      imageAlt: "WIDS Ambassador",
       footerLink: []
     },
     {

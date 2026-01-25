@@ -230,28 +230,28 @@ const achievementSection = {
     {
       title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
       subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/oracleuniversity.jpg"),
+      image: require("./assets/images/Certified_data_science.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
       subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/oracleuniversity.jpg"),
+      image: require("./assets/images/GenAI.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
-      title: "Oracle Certified Foundations Associate",
+      title: "Oracle Certified AI Foundations Associate",
       subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/oracleuniversity.jpg"),
+      image: require("./assets/images/AI_Foundations.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Oracle AI Vector Search Certified Professional",
       subtitle: "Credentialed by Oracle University",
-      image: require("./assets/images/oracleuniversity.jpg"),
+      image: require("./assets/images/Oracle_AIvector_search.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
@@ -265,14 +265,14 @@ const achievementSection = {
     {
       title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Completed through Forage",
-      image: require("./assets/images/delloitte.png"),
+      image: require("./assets/images/Deloitte_certification.png"),
       imageAlt: "Virtual Internship",
       footerLink: []
     },
     {
       title: "Data Literacy Certificate",
       subtitle: "Credentialed by DataCamp",
-      image: require("./assets/images/datacamp.png"),
+      image: require("./assets/images/Data-Literacy-datacamp.png"),
       imageAlt: "Datacamp",
       footerLink: []
     },

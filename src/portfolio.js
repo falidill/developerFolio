@@ -17,7 +17,7 @@ const greeting = {
   username: "Fali Honutse",
   title: "Hi, I'm Fali Honutse",
   subTitle: emoji(
-    "Data & Operations Analyst | Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
+    "Data & Operations Analyst |Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
   ),
   resumeLink: "", // We'll add this later
   displayGreeting: true

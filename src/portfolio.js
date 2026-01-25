@@ -98,7 +98,7 @@ const workExperiences = {
     {
       role: "Data & Operations Analyst",
       company: "MatchingDonors",
-      companylogo: require("./assets/images/matchingdonors.png"),
+      companylogo: require("./assets/images/matching_donors.jpg"),
       date: "June 2025 – Present",
       desc: "Optimizing global affiliate operations by centralizing data systems and delivering high-integrity analytics for better efficiency in operations.",
       descBullets: [

@@ -91,7 +91,6 @@ const techStack = {
   ],
   displayCodersrank: false
 };
-
 // Work Experience
 const workExperiences = {
   display: true,
@@ -99,16 +98,16 @@ const workExperiences = {
     {
       role: "Data & Operations Analyst",
       company: "MatchingDonors",
-      companylogo: require("./assets/images/matchingdonors.png"), // Ensure path is correct
+      companylogo: require("./assets/images/matchingdonors.png"),
       date: "June 2025 – Present",
       desc: "Optimizing global affiliate operations by centralizing data systems and delivering high-integrity analytics for better efficiency in operations.",
       descBullets: [
-      "Standardize global databases across Salesforce, Airtable, and Excel, improving data consistency by 35% and reducing retrieval time by 40%.",
-      "Develop Power BI and Looker Studio dashboards to track performance metrics for 3000 affiliates and identify growth opportunities.",
-      "Engineer workflow solutions and automated reporting in Google Workspace to bridge process gaps between Marketing and Outreach teams."
+        "Standardize global databases across Salesforce, Airtable, and Excel, improving data consistency by 35% and reducing retrieval time by 40%.",
+        "Develop Power BI and Looker Studio dashboards to track performance metrics for 3000 affiliates and identify growth opportunities.",
+        "Engineer workflow solutions and automated reporting in Google Workspace to bridge process gaps between Marketing and Outreach teams."
       ]
     },
-  {
+    {
       role: "Data Analyst",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
@@ -117,13 +116,14 @@ const workExperiences = {
       descBullets: [
         "Developed Power BI dashboards for student retention",
         "Collaborated with university leadership on student strategy"
-        ],
+      ]
+    },
     {
       role: "Data Analyst",
       company: "Allied Health Professions Council, Ghana",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 30.000+ professionals, developed dashboards, and improved outreach to underserved health workers."
+      desc: "Streamlined workflows for 30,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
     },
     { 
       role: "Data Analyst",
@@ -134,6 +134,7 @@ const workExperiences = {
     }
   ]
 };
+
 // Open Source
 const openSource = {
   showGithubProfile: "true",

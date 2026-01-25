@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
-const splashScreen = {
+const splashScreen = { 
   enabled: true,
   animation: splashAnimation,
   duration: 2000

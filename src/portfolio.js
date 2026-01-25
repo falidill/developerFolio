@@ -102,9 +102,8 @@ const workExperiences = {
       date: "June 2025 – Present",
       desc: "Optimizing global affiliate operations by centralizing data systems and delivering high-integrity analytics for better efficiency in operations.",
       descBullets: [
-        "Standardize global databases across Salesforce, Airtable, and Excel, improving data consistency by 35% and reducing retrieval time by 40%.",
-        "Develop Power BI and Looker Studio dashboards to track performance metrics for 3000 affiliates and identify growth opportunities.",
-        "Engineer workflow solutions and automated reporting in Google Workspace to bridge process gaps between Marketing and Outreach teams."
+        "Standardize global databases across Salesforce, Airtable, and Excel.",
+         "Engineer workflow solutions and automated reporting."
       ]
     },
     {
@@ -114,8 +113,8 @@ const workExperiences = {
       date: "Jul 2025 – Present",
       desc: "Deliver regular metrics reports and presentations on operational efficiency",
       descBullets: [
-        "Coordinated cross-functional projects using Asana , resolving timeline and exceptions to improve program efficiency.",
-        "Developed structured documentation, process maps (Visio/Lucidchart), and impact dashboards"
+        "Coordinate cross-functional projects to improve program efficiency.",
+        "Develop structured documentation, process maps (Visio/Lucidchart), and impact dashboards"
       ]
     },
     {
@@ -240,49 +239,49 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
-      subtitle: "Credentialed by Oracle University",
+      subtitle: "Oracle University",
       image: require("./assets/images/Certified_data_science.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
-      subtitle: "Credentialed by Oracle University",
+      subtitle: "Oracle University",
       image: require("./assets/images/GenAI.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Oracle Certified AI Foundations Associate",
-      subtitle: "Credentialed by Oracle University",
+      subtitle: "Oracle University",
       image: require("./assets/images/AI_Foundations.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Oracle AI Vector Search Certified Professional",
-      subtitle: "Credentialed by Oracle University",
+      subtitle: "Oracle University",
       image: require("./assets/images/Oracle_AIvector_search.png"),
       imageAlt: "Oracle",
       footerLink: []
     },
     {
       title: "Six Sigma Green Belt",
-      subtitle: "Credentialed by The Council for Six Sigma Certification",
+      subtitle: "The Council for Six Sigma Certification",
       image: require("./assets/images/six_sigma_green_belt.png"),
       imageAlt: "Six Sigma Green Belt Certified",
       footerLink: []
     },
     {
       title: "Deloitte Data Analytics Virtual Internship",
-      subtitle: "Completed through Forage",
+      subtitle: " Forage",
       image: require("./assets/images/Deloitte_certification.png"),
       imageAlt: "Virtual Internship",
       footerLink: []
     },
     {
       title: "Data Literacy Certificate",
-      subtitle: "Credentialed by DataCamp",
+      subtitle: "DataCamp",
       image: require("./assets/images/Data-Literacy-datacamp.png"),
       imageAlt: "Datacamp",
       footerLink: []

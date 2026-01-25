@@ -108,6 +108,17 @@ const workExperiences = {
       ]
     },
     {
+      role: "Data & Operations Analyst (Volunteer)",
+      company: "From Jersey With Love NGO",
+      companylogo: require("./assets/images/FJWL.jpg"),
+      date: "Jul 2025 – Present",
+      desc: "Deliver regular metrics reports and presentations on operational efficiency",
+      descBullets: [
+        "Coordinated cross-functional projects using Asana , resolving timeline and exceptions to improve program efficiency.",
+        "Developed structured documentation, process maps (Visio/Lucidchart), and impact dashboards"
+      ]
+    },
+    {
       role: "Data Analyst",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),

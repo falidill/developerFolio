@@ -117,7 +117,7 @@ const workExperiences = {
       descBullets: [
         "Developed Power BI dashboards for student retention",
         "Collaborated with university leadership on student strategy"
-        },
+        ],
     {
       role: "Data Analyst",
       company: "Allied Health Professions Council, Ghana",

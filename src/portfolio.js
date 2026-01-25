@@ -85,8 +85,8 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Data Science & Machine Learning", progressPercentage: "85%" },
     { Stack: "Data Analysis & Reporting", progressPercentage: "95%" },
+    { Stack: "Data Science & Machine Learning", progressPercentage: "85%" },
     { Stack: "Data Engineering & Automation", progressPercentage: "70%" }
   ],
   displayCodersrank: false

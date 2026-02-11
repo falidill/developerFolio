@@ -17,7 +17,7 @@ const greeting = {
   username: "Fali Honutse",
   title: "Hi, I'm Fali Honutse",
   subTitle: emoji(
-    "Data & Operations Analyst |Business Intelligence Engineer |Passionate about extracting insights, building impactful tools, and supporting change through data."
+    "Applied Data Scientist | Analytics & Decision Modeling | I use data to build models, uncover patterns, and support real-world decisions."
   ),
   resumeLink: "", // We'll add this later
   displayGreeting: true
@@ -35,11 +35,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "DATA ENTHUSIAST TURNING MESSY DATA INTO MEANINGFUL ACTIONS",
+    "APPLIED DATA SCIENTIST FOCUSED ON ANALYTICS, MODELING, AND DECISION SUPPORT",
   skills: [
-    emoji("⚡ Build predictive models using Scikit-learn, TensorFlow, and PyTorch"),
-    emoji("⚡ Visualize insights using Power BI, Tableau, and Excel"),
-    emoji("⚡ Automate analysis and reporting with SQL, Python, and R")
+    emoji("⚡ Build predictive and analytical models to understand behavior, risk, and performance"),
+    emoji("⚡ Perform forecasting, segmentation, and trend analysis to support real-world decisions"),
+    emoji("⚡ Design dashboards and decision-support tools that translate analysis into action")
   ],
   softwareSkills: [
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
@@ -48,11 +48,12 @@ const skillsSection = {
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
-    { skillName: "MiniTab", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" }
+    { skillName: "SPSS", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "AWS (S3)", fontAwesomeClassname: "fab fa-aws" }
   ],
   display: true
 };
+
 
 // Education Section
 const educationInfo = {

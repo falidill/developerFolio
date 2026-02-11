@@ -60,10 +60,10 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      degree: "MSc. Data Science",
+      degree: "Master Of Science In Data Science",
       subHeader: "Master Of Science In Data Science — University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
-      duration: "2023 - 2025",
+      duration: "2025",
       desc: "Focused on applied machine learning, NLP, and real-world data science tools.",
       descBullets: [
         "Capstone: Built NLP pipeline to detect fake news (90%+ accuracy)",
@@ -72,10 +72,10 @@ const educationInfo = {
       ]
     },
     {
-      degree:"M.S. Accounting & Finance | B.Sc. Actuarial Science",
+      degree:"Master Of Science in Accounting & Finance | Bachelor Of Science in Actuarial Science",
       subHeader: "Master Of Science in Accounting & Finance | Bachelor Of Science in Actuarial Science| KNUST",
       logo: require("./assets/images/knustlogo.jpg"),
-      duration: "2017 - 2022",
+      duration: "2022",
       desc: "Gained solid foundations in modeling, statistics, and financial analysis. Developed actuarial models, performed risk assessments, and analyzed large datasets using R and Excel to inform financial decision-making."
     }
   ]
@@ -98,14 +98,14 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Data & Operations Analyst",
+      role: "Applied Data Scientist(Data & Operations)",
       company: "MatchingDonors",
       companylogo: require("./assets/images/matching_donors.jpg"),
       date: "June 2025 – Present",
-      desc: "Optimizing global affiliate operations by centralizing data systems and delivering high-integrity analytics for better efficiency in operations.",
+      desc: "•	Design and lead performance analysis frameworks for a global donor–recipient matching platform, analyzing behavioral and operational data from 3,000+ affiliates to identify drivers of successful matches and donor engagement.",
       descBullets: [
-        "Standardize global databases across Salesforce, Airtable, and Excel.",
-         "Engineer workflow solutions and automated reporting."
+        "Conduct segmentation and trend analysis on affiliate activity data to distinguish high- and low-performing cohorts",
+         "Develop interactive analytical dashboards in Power BI and Looker Studio to monitor conversion rates"
       ]
     },
     {
@@ -120,22 +120,22 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Analyst",
+      role: "Applied Data Scientist (Institutional Analytics)",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
       desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards.",
       descBullets: [
         "Developed Power BI dashboards for student retention",
-        "Collaborated with university leadership on student strategy"
+        "Translated model outputs and analytical findings into decision-ready insights"
       ]
     },
     {
-      role: "Data Analyst",
+      role: "Applied Data Scientist (Regulatory & Compliance Analytics) ",
       company: "Allied Health Professions Council, Ghana",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 30,000+ professionals, developed dashboards, and improved outreach to underserved health workers."
+      desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
     },
     { 
       role: "Data Analyst",

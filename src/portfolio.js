@@ -102,7 +102,7 @@ const workExperiences = {
       company: "MatchingDonors",
       companylogo: require("./assets/images/matching_donors.jpg"),
       date: "June 2025 – Present",
-      desc: "•	Design and lead performance analysis frameworks for a global donor–recipient matching platform, analyzing behavioral and operational data from 3,000+ affiliates to identify drivers of successful matches and donor engagement.",
+      desc: "Design and lead performance analysis frameworks for a global donor–recipient matching platform, analyzing behavioral and operational data from 3,000+ affiliates to identify drivers of successful matches and donor engagement.",
       descBullets: [
         "Conduct segmentation and trend analysis on affiliate activity data to distinguish high- and low-performing cohorts",
          "Develop interactive analytical dashboards in Power BI and Looker Studio to monitor conversion rates"
@@ -110,7 +110,7 @@ const workExperiences = {
     },
     {
       role: "Data & Operations Analyst (Volunteer)",
-      company: "From Jersey With Love NGO",
+      company: "From Jersey With Love",
       companylogo: require("./assets/images/FJWL.jpg"),
       date: "Jul 2025 – Present",
       desc: "Deliver regular metrics reports and presentations on operational efficiency",

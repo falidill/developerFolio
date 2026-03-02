@@ -25,7 +25,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/falidill",
   linkedin: "https://www.linkedin.com/in/fali-dillys-honutse",
-  gmail: "fhonutse@yahoo.com",
+  email: "fhonutse@yahoo.com",
   display: true
 };
 
@@ -33,20 +33,18 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "APPLIED DATA SCIENTIST FOCUSED ON ANALYTICS, MODELING, AND DECISION SUPPORT",
+    "ANALYTICS & OPERATIONS | PERFORMANCE MEASUREMENT, WORKFLOW INSIGHTS, AND DECISION SUPPORT IN REGULATED ENVIRONMENTS",
   skills: [
-    emoji("⚡ Build predictive and analytical models to understand behavior, risk, and performance"),
-    emoji("⚡ Perform forecasting, segmentation, and trend analysis to support real-world decisions"),
-    emoji("⚡ Design dashboards and decision-support tools that translate analysis into action")
+    emoji("⚡ Build performance measurement frameworks (KPIs, dashboards, reporting logic) that leadership can trust"),
+    emoji("⚡ Analyze operational workflows to identify bottlenecks, drivers of outcomes, and improvement opportunities"),
+    emoji("⚡ Deliver decision support through forecasting, segmentation, and scenario analysis—translated into clear recommendations")
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "R", fontAwesomeClassname: "fab fa-r-project" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
-    { skillName: "SPSS", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "AWS (S3)", fontAwesomeClassname: "fab fa-aws" }
   ],
   display: true

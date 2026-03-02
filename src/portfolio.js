@@ -85,9 +85,9 @@ descBullets: [
 const techStack = {
   viewSkillBars: false,
   experience: [
-    { Stack: "Applied Data Analysis & Decision Support" },
-    { Stack: "Predictive Modeling & Analytics" },
-    { Stack: "Data Automation & Analytical Pipelines" }
+    { Stack: "Operational Analytics & Performance Measurement" },
+    { Stack: "Decision Support & Forecasting" },
+    { Stack: "Data Governance & Reporting Systems" }
   ],
   displayCodersrank: false
 };

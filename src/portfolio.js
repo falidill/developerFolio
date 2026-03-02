@@ -97,7 +97,7 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role:  "Analytics & Operations Analyst",
+      role:  "Data Operations Analyst",
       company: "MatchingDonors",
       companylogo: require("./assets/images/matching_donors.jpg"),
       date: "Aug 2025 – Present",
@@ -109,7 +109,7 @@ const workExperiences = {
   ]
     },
     {
-      role: "Data & Operations Analyst (Volunteer)",
+      role: "Operations Analyst (Volunteer)",
       company: "From Jersey With Love",
       companylogo: require("./assets/images/FJWL.jpg"),
       date: "Jul 2025 – Present",
@@ -134,7 +134,7 @@ const workExperiences = {
   ]
     },
     {
-      role: "Applied Data Scientist (Regulatory & Compliance Analytics) ",
+      role: "Assistant Administrative Assistant - Regulatory Analytics & Licensing Operations ",
       company: "Allied Health Professions Council",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",

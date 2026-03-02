@@ -76,7 +76,7 @@ const educationInfo = {
       descBullets: [
         "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
         "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
-        "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability"
+        "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability",
       ]
     }
   ]

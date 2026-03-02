@@ -50,13 +50,12 @@ const skillsSection = {
   display: true
 };
 
-
 // Education Section
 const educationInfo = {
   display: true,
   schools: [
     {
-      degree: "M.S. Data Science", 
+      degree: "M.S. Data Science",
       subHeader: "University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
       duration: "2025",
@@ -69,15 +68,17 @@ const educationInfo = {
       ]
     },
     {
-  degree:"M.S. Accounting & Finance | B.S. Actuarial Science",
-  subHeader: "Kwame Nkrumah University of Science and Technology (KNUST)",
-  logo: require("./assets/images/knustlogo.jpg"),
-  duration: "2022",
-  desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",
-  descBullets: [
-    "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
-    "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
-    "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability"
+      degree: "M.S. Accounting & Finance | B.S. Actuarial Science",
+      subHeader: "Kwame Nkrumah University of Science and Technology (KNUST)",
+      logo: require("./assets/images/knustlogo.jpg"),
+      duration: "2022",
+      desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",
+      descBullets: [
+        "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
+        "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
+        "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability"
+      ]
+    }
   ]
 };
 

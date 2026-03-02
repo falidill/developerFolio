@@ -56,7 +56,7 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      degree: "M.S. Data Science",
+      degree: "M.S. Data Science", 
       subHeader: "University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
       duration: "2025",

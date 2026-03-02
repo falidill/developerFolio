@@ -15,11 +15,9 @@ const illustration = {
 
 const greeting = {
   username: "Fali Honutse",
-  title: "Hi, I'm Fali Honutse",
-  subTitle: emoji(
-    "Applied Data Scientist | Analytics & Decision Modeling | I use data to build models, uncover patterns, and support real-world decisions."
-  ),
-  resumeLink: "", // We'll add this later
+  title: "Fali Honutse",
+  subTitle: "Analytics & Operations Professional | Healthcare & Regulated Systems | I use data to improve operational decision-making, performance measurement, and process efficiency.",
+  resumeLink: "",
   displayGreeting: true
 };
 

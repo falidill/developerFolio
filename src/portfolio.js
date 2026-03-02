@@ -68,7 +68,7 @@ descBullets: [
     },
     {
       degree: "M.S. Accounting & Finance | B.S. Actuarial Science",
-      subHeader: "M.S. Accounting & Finance | B.S. Actuarial Science" — Kwame Nkrumah University of Science and Technology (KNUST)",
+      subHeader: "M.S. Accounting & Finance | B.S. Actuarial Science — Kwame Nkrumah University of Science and Technology (KNUST)",
       logo: require("./assets/images/knustlogo.jpg"),
       duration: "2022",
       desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",

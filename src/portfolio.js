@@ -82,7 +82,6 @@ const educationInfo = {
   ]
 };
 
-
 // Technical Focus Areas
 const techStack = {
   viewSkillBars: false,

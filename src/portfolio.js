@@ -33,7 +33,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "ANALYTICS & OPERATIONS | PERFORMANCE MEASUREMENT, WORKFLOW INSIGHTS, AND DECISION SUPPORT IN REGULATED ENVIRONMENTS",
+     "ANALYTICS & OPERATIONS | HEALTHCARE / REGULATORY DECISION SUPPORT, KPI SYSTEMS, AND OPERATIONAL PERFORMANCE"
   skills: [
     emoji("⚡ Build performance measurement frameworks (KPIs, dashboards, reporting logic) that leadership can trust"),
     emoji("⚡ Analyze operational workflows to identify bottlenecks, drivers of outcomes, and improvement opportunities"),
@@ -56,24 +56,28 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      degree: "Master Of Science In Data Science",
-      subHeader: "Master Of Science In Data Science — University of New Haven",
+      degree: "M.S. Data Science",
+      subHeader: "University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
       duration: "2025",
-      desc: "Focused on applied machine learning, NLP, and real-world data science tools.",
+      desc: "Applied analytics focused on decision support, performance measurement, and translating data into operational recommendations.",
       descBullets: [
-        "Capstone: Built NLP pipeline to detect fake news (90%+ accuracy)",
-        "Created dashboards for student success and retention using Power BI",
-        "Served as VP of Diversity & Inclusion in Graduate Student Council"
+        "Built retention risk and performance monitoring analyses to support student success decision-making",
+        "Developed executive dashboards and reporting workflows in Power BI to standardize KPI tracking",
+        "Capstone: Designed an end-to-end text analytics pipeline to classify content and support operational review decisions",
+        "Led community initiatives as VP of Diversity & Inclusion, Graduate Student Council"
       ]
     },
     {
-      degree:"Master Of Science in Accounting & Finance | Bachelor Of Science in Actuarial Science",
-      subHeader: "Master Of Science in Accounting & Finance | Bachelor Of Science in Actuarial Science| KNUST",
-      logo: require("./assets/images/knustlogo.jpg"),
-      duration: "2022",
-      desc: "Gained solid foundations in modeling, statistics, and financial analysis. Developed actuarial models, performed risk assessments, and analyzed large datasets using R and Excel to inform financial decision-making."
-    }
+  degree:"M.S. Accounting & Finance | B.S. Actuarial Science",
+  subHeader: "Kwame Nkrumah University of Science and Technology (KNUST)",
+  logo: require("./assets/images/knustlogo.jpg"),
+  duration: "2022",
+  desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",
+  descBullets: [
+    "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
+    "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
+    "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability"
   ]
 };
 

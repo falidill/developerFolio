@@ -33,7 +33,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-     "ANALYTICS & OPERATIONS | HEALTHCARE / REGULATORY DECISION SUPPORT, KPI SYSTEMS, AND OPERATIONAL PERFORMANCE"
+     "ANALYTICS & OPERATIONS | HEALTHCARE / REGULATORY DECISION SUPPORT, KPI SYSTEMS, AND OPERATIONAL PERFORMANCE",
   skills: [
     emoji("⚡ Build performance measurement frameworks (KPIs, dashboards, reporting logic) that leadership can trust"),
     emoji("⚡ Analyze operational workflows to identify bottlenecks, drivers of outcomes, and improvement opportunities"),
@@ -76,7 +76,7 @@ const educationInfo = {
       descBullets: [
         "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
         "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
-        "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability",
+        "Performed financial and operational analysis using R and Excel to support reporting accuracy and decision accountability"
       ]
     }
   ]

@@ -56,20 +56,19 @@ const educationInfo = {
   schools: [
     {
       degree: "M.S. Data Science",
-      subHeader: "University of New Haven",
+      subHeader: "M.S. Data Science — University of New Haven",
       logo: require("./assets/images/unhlogo.png"),
       duration: "2025",
       desc: "Applied analytics focused on decision support, performance measurement, and translating data into operational recommendations.",
-      descBullets: [
-        "Built retention risk and performance monitoring analyses to support student success decision-making",
-        "Developed executive dashboards and reporting workflows in Power BI to standardize KPI tracking",
-        "Capstone: Designed an end-to-end text analytics pipeline to classify content and support operational review decisions",
-        "Led community initiatives as VP of Diversity & Inclusion, Graduate Student Council"
-      ]
+descBullets: [
+  "Built retention risk and performance monitoring analyses to support student success decision-making",
+  "Developed executive dashboards and reporting workflows in Power BI to standardize KPI tracking",
+  "Capstone: Designed an end-to-end text analytics pipeline to classify content and support operational review decisions"
+]
     },
     {
       degree: "M.S. Accounting & Finance | B.S. Actuarial Science",
-      subHeader: "Kwame Nkrumah University of Science and Technology (KNUST)",
+      subHeader: "M.S. Accounting & Finance | B.S. Actuarial Science" — Kwame Nkrumah University of Science and Technology (KNUST)",
       logo: require("./assets/images/knustlogo.jpg"),
       duration: "2022",
       desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",

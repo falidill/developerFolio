@@ -97,52 +97,58 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Applied Data Scientist(Data & Operations)",
+      role:  "Analytics & Operations Analyst",
       company: "MatchingDonors",
       companylogo: require("./assets/images/matching_donors.jpg"),
-      date: "June 2025 – Present",
-      desc: "Design and lead performance analysis frameworks for a global donor–recipient matching platform, analyzing behavioral and operational data from 3,000+ affiliates to identify drivers of successful matches and donor engagement.",
-      descBullets: [
-        "Conduct segmentation and trend analysis on affiliate activity data to distinguish high- and low-performing cohorts",
-         "Develop interactive analytical dashboards in Power BI and Looker Studio to monitor conversion rates"
-      ]
+      date: "Aug 2025 – Present",
+      desc: "Lead operational performance analytics for a global donor–recipient matching platform, building structured measurement systems that improve match success rates and affiliate engagement across 3,000+ partners.",
+  descBullets: [
+    "Identified performance gaps across affiliate workflows using cohort segmentation and trend analysis, informing targeted engagement strategies",
+    "Designed KPI dashboards in Power BI and Looker Studio to monitor conversion, outreach effectiveness, and match lifecycle performance",
+    "Standardized data collection and reporting logic across global volunteers, improving consistency and reliability of operational metrics"
+  ]
     },
     {
       role: "Data & Operations Analyst (Volunteer)",
       company: "From Jersey With Love",
       companylogo: require("./assets/images/FJWL.jpg"),
       date: "Jul 2025 – Present",
-      desc: "Deliver regular metrics reports and presentations on operational efficiency",
-      descBullets: [
-        "Coordinate cross-functional projects to improve program efficiency.",
-        "Develop structured documentation, process maps (Visio/Lucidchart), and impact dashboards"
-      ]
+      desc: "Support operational performance and program effectiveness by developing structured reporting systems and workflow documentation for a mission-driven organization.",
+  descBullets: [
+    "Built recurring performance reporting frameworks to track program efficiency and resource utilization",
+    "Mapped cross-functional workflows using process diagrams (Visio/Lucidchart) to identify coordination gaps and improvement opportunities",
+    "Developed impact dashboards to provide leadership with visibility into program outcomes and operational bottlenecks"
+  ]
     },
     {
-      role: "Applied Data Scientist (Institutional Analytics)",
+      role: "JEDI Ambassador- Program and Institution Analytics",
       company: "University of New Haven",
       companylogo: require("./assets/images/data1.png"),
       date: "Feb 2024 – May 2025",
-      desc: "Built ML models to identify student dropout risk, automated reporting workflows, and created department-wide BI dashboards.",
-      descBullets: [
-        "Developed Power BI dashboards for student retention",
-        "Translated model outputs and analytical findings into decision-ready insights"
-      ]
+      desc: "Led institutional performance analytics to support student retention strategy, enrollment forecasting, and leadership decision-making across academic units.",
+  descBullets: [
+    "Developed retention risk models and performance monitoring frameworks to identify at-risk student cohorts and inform targeted interventions",
+    "Designed and automated reporting workflows to standardize KPI tracking across departments, reducing manual analysis time",
+    "Built executive Power BI dashboards used by deans and senior leadership to evaluate retention trends and policy tradeoffs",
+    "Translated analytical outputs into written briefs and recommendations to guide resource allocation and student success initiatives"
+  ]
     },
     {
       role: "Applied Data Scientist (Regulatory & Compliance Analytics) ",
-      company: "Allied Health Professions Council, Ghana",
+      company: "Allied Health Professions Council",
       companylogo: require("./assets/images/data2.webp"),
       date: "Dec 2020 – Jul 2023",
       desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
     },
     { 
-      role: "Data Analyst",
-      company: "Ho Technical University, Ghana",
+      role: "Institutional Data Analyst",
+      company: "Ho Technical University",
       companylogo: require("./assets/images/data3.jpg"),
       date: "Dec 2018 – Dec 2020",
-      desc: "Led curriculum impact analysis, digitized records using relational models, and produced actionable trend reports."
-    }
+  desc: "Built foundational reporting and data-structure improvements to support academic planning and operational visibility.",
+  descBullets: [
+    "Converted fragmented records into structured datasets and recurring reports to improve reporting consistency",
+    "Analyzed enrollment and program performance trends to support planning and decision-making"
   ]
 };
 

@@ -151,7 +151,7 @@ const workExperiences = {
     "Analyzed enrollment, curriculum, and student performance trends to support academic planning and administrative oversight",
     "Developed recurring institutional reports that provided leadership visibility into program outcomes and operational metrics"
   ]
-};
+}
 
 // Open Source
 const openSource = {

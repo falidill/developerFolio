@@ -163,13 +163,27 @@ const openSource = {
 
 // Projects
 const bigProjects = {
-  title: "My Projects",
-  subtitle: "Products and Initiatives I’ve Created",
+  title: "Analytics & Operations Projects",
+  subtitle: "Operational analytics and decision-support systems",
   projects: [
     {
+      image: require("./assets/images/ops-analytics.png"),
+      projectName: "Regulated Operational Workflow Performance Analysis",
+      projectDesc:
+        "End-to-end operational analytics project analyzing 6,000 workflow encounters in a regulated service environment to diagnose throughput bottlenecks, evaluate SLA compliance, and assess safety exposure. The analysis identified queue congestion as the primary constraint and produced governance-aligned recommendations for peak demand management and operational monitoring.",
+      footerLink: [
+        {
+          name: "View Project on GitHub",
+          url: "https://github.com/falidill/regulated-ops-analytics"
+        }
+      ]
+    },
+
+    {
       image: require("./assets/images/matchlab.png"),
-      projectName: "MatchLab",
-      projectDesc: "A platform to connect students and professionals based on projects, skills, and research interests.",
+      projectName: "MatchLab — Structured Matching Decision System",
+      projectDesc:
+        "Designed a structured matching framework that evaluates student-project compatibility using scoring logic and structured attributes, improving transparency and consistency in opportunity matching workflows.",
       footerLink: [
         {
           name: "Visit Website",
@@ -177,13 +191,15 @@ const bigProjects = {
         }
       ]
     },
+
     {
       image: require("./assets/images/resumematcher.png"),
-      projectName: "Resume Matcher App",
-      projectDesc: "A Streamlit app that matches your resume to a job description using NLP, cosine similarity, and scoring logic.",
+      projectName: "Resume–Role Alignment Tool",
+      projectDesc:
+        "Built a decision-support tool that evaluates candidate-job alignment using structured similarity scoring and NLP feature extraction, helping standardize resume screening workflows.",
       footerLink: [
         {
-          name: "Try it Live",
+          name: "Try the App",
           url: "https://theresume-matcher.streamlit.app/"
         },
         {
@@ -191,52 +207,7 @@ const bigProjects = {
           url: "https://github.com/falidill/Resume-Matcher"
         }
       ]
-    },
-    {
-      image: require("./assets/images/fakenews.png"),
-      projectName: "Fake News Detection (Capstone)",
-      projectDesc: "NLP pipeline using BERT & RoBERTa with 90%+ accuracy. Includes MLOps pipeline for deployment.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/falidill/fake-news-detector"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/insurance.webp"),
-      projectName: "Insurance Charges Prediction App",
-      projectDesc: "Streamlit app that predicts medical insurance costs based on user input like age and BMI.",
-      footerLink: [
-        {
-          name: "Try it Live",
-          url: "https://insurance-claim-predictor-8ep2mqqchbn4gxasgpz53d.streamlit.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/portfolio.png"),
-      projectName: "Portfolio Website, Fali Honutse",
-      projectDesc: "My original portfolio built using HTML, CSS, and JavaScript, hosted on GitHub Pages.",
-      footerLink: [
-        {
-          name: "Visit site",
-          url: "https://falidill.github.io/portfolio-website/"
-        }
-      ]
-    },
-    {
-  image: require("./assets/images/kinksandkulture.png"), // Upload this image
-  projectName: "Kinks & Kulture",
-  projectDesc: "An AI-powered product discovery app that helps users find haircare products based on their hair needs and preferences.",
-  footerLink: [
-    {
-      name: "Visit Website",
-      url: "https://kinksandkulture.lovable.app/"
     }
-  ]
-}
-
   ],
   display: true
 };

@@ -136,7 +136,7 @@ const workExperiences = {
     {
       role: "Assistant Administrative Assistant - Regulatory Analytics & Licensing Operations ",
       company: "Allied Health Professions Council",
-      companylogo: require("./assets/images/AHPC logo.png"),
+      companylogo: require("./assets/images/AHPC_ logo.png"),
       date: "Dec 2020 – Jul 2023",
       desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
     },

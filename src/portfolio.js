@@ -212,94 +212,44 @@ const bigProjects = {
   display: true
 };
 
-
 // Achievements
 const achievementSection = {
-  title: emoji("Honors & Certifications 🏆"),
-  subtitle: "Here are some highlights and credentials I’ve earned.",
+  title: "Honors & Certifications",
+  subtitle: "Selected credentials supporting analytics, operational performance, and decision support.",
   achievementsCards: [
     {
-      title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+      title: "Six Sigma Green Belt",
+      subtitle: "Council for Six Sigma Certification",
+      image: require("./assets/images/six_sigma_green_belt.png"),
+      imageAlt: "Six Sigma Green Belt Certification",
+      footerLink: []
+    },
+    {
+      title: "Oracle Cloud Infrastructure — Certified Data Science Professional",
       subtitle: "Oracle University",
       image: require("./assets/images/Certified_data_science.png"),
-      imageAlt: "Oracle",
+      imageAlt: "Oracle Data Science Certification",
       footerLink: []
     },
     {
-      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
-      subtitle: "Oracle University",
-      image: require("./assets/images/GenAI.png"),
-      imageAlt: "Oracle",
-      footerLink: []
-    },
-    {
-      title: "Oracle Certified AI Foundations Associate",
-      subtitle: "Oracle University",
-      image: require("./assets/images/AI_Foundations.png"),
-      imageAlt: "Oracle",
-      footerLink: []
-    },
-    {
-      title: "Oracle AI Vector Search Certified Professional",
-      subtitle: "Oracle University",
-      image: require("./assets/images/Oracle_AIvector_search.png"),
-      imageAlt: "Oracle",
-      footerLink: []
-    },
-    {
-      title: "Six Sigma Green Belt",
-      subtitle: "The Council for Six Sigma Certification",
-      image: require("./assets/images/six_sigma_green_belt.png"),
-      imageAlt: "Six Sigma Green Belt Certified",
-      footerLink: []
-    },
-    {
-      title: "Deloitte Data Analytics Virtual Internship",
-      subtitle: " Forage",
-      image: require("./assets/images/Deloitte_certification.png"),
-      imageAlt: "Virtual Internship",
-      footerLink: []
-    },
-    {
-      title: "Data Literacy Certificate",
+      title: "Associate Data Analyst",
       subtitle: "DataCamp",
-      image: require("./assets/images/Data-Literacy-datacamp.png"),
-      imageAlt: "Datacamp",
+      image: require("./assets/images/datacamp_analyst.png"),
+      imageAlt: "DataCamp Associate Data Analyst Certification",
       footerLink: []
     },
     {
-      title: "Order of the Engineer",
-      subtitle: "University of New Haven",
-      image: require("./assets/images/orderoftheengineer.png"),
-      imageAlt: "Honors",
+      title: "Deloitte Data Analytics Virtual Experience",
+      subtitle: "Forage",
+      image: require("./assets/images/Deloitte_certification.png"),
+      imageAlt: "Deloitte Data Analytics Virtual Experience",
       footerLink: []
     },
     {
-      title: "2026 Women In Data Science Ambassador ",
-      subtitle: "Women In Data Science WorldWide",
+      title: "Women in Data Science (WiDS) Ambassador 2026",
+      subtitle: "Women in Data Science Worldwide",
       image: require("./assets/images/WiDS_.png"),
-      imageAlt: "WIDS Ambassador",
-      footerLink: []
-    },
-    {
-      title: "Dean's List",
-      subtitle: "University of New Haven",
-      image: require("./assets/images/unhlogo.png"),
-      imageAlt: "Honors",
-      footerLink: []
-    },
-    {
-      title: "More Certifications",
-      subtitle: `• Machine Learning with Scikit-learn
-• Predictive Analytics: Data Mining 
-• SQL Essentials (2019)
-• Data Science Foundations
-• DevOps for Data Scientists
-• MLOps Essentials
-• SQL Essential Training
-• Graph Databases: Neo4j`,
-      image: require("./assets/images/linkedin.png"),
-      imageAlt: "More Certifications",
+      imageAlt: "WiDS Ambassador",
       footerLink: []
     }
   ],

@@ -123,7 +123,7 @@ const workExperiences = {
     {
       role: "JEDI Ambassador- Program and Institution Analytics",
       company: "University of New Haven",
-      companylogo: require("./assets/images/data1.png"),
+      companylogo: require("./assets/images/UNHlogo.png"),
       date: "Feb 2024 – May 2025",
       desc: "Led institutional performance analytics to support student retention strategy, enrollment forecasting, and leadership decision-making across academic units.",
   descBullets: [
@@ -136,19 +136,20 @@ const workExperiences = {
     {
       role: "Assistant Administrative Assistant - Regulatory Analytics & Licensing Operations ",
       company: "Allied Health Professions Council",
-      companylogo: require("./assets/images/data2.webp"),
+      companylogo: require("./assets/images/AHPC logo.png"),
       date: "Dec 2020 – Jul 2023",
       desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
     },
-    { 
-      role: "Institutional Data Analyst",
-      company: "Ho Technical University",
-      companylogo: require("./assets/images/data3.jpg"),
-      date: "Dec 2018 – Dec 2020",
-  desc: "Built foundational reporting and data-structure improvements to support academic planning and operational visibility.",
+   {
+  role: "Institutional Data Analyst (Contract)",
+  company: "Ho Technical University",
+  companylogo: require("./assets/images/HTU_logo.png"),
+  date: "Dec 2018 – Dec 2020",
+  desc: "Supported institutional reporting and operational decision-making by transitioning academic records into structured digital systems and delivering performance trend analysis.",
   descBullets: [
-    "Converted fragmented records into structured datasets and recurring reports to improve reporting consistency",
-    "Analyzed enrollment and program performance trends to support planning and decision-making"
+    "Designed relational data structures to digitize fragmented academic records, improving reporting accuracy and accessibility",
+    "Analyzed enrollment, curriculum, and student performance trends to support academic planning and administrative oversight",
+    "Developed recurring institutional reports that provided leadership visibility into program outcomes and operational metrics"
   ]
 };
 

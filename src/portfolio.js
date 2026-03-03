@@ -140,18 +140,20 @@ const workExperiences = {
       date: "Dec 2020 – Jul 2023",
       desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
     },
-   {
-  role: "Institutional Data Analyst (Contract)",
-  company: "Ho Technical University",
-  companylogo: require("./assets/images/HTU_logo.png"),
-  date: "Dec 2018 – Dec 2020",
-  desc: "Supported institutional reporting and operational decision-making by transitioning academic records into structured digital systems and delivering performance trend analysis.",
-  descBullets: [
-    "Designed relational data structures to digitize fragmented academic records, improving reporting accuracy and accessibility",
-    "Analyzed enrollment, curriculum, and student performance trends to support academic planning and administrative oversight",
-    "Developed recurring institutional reports that provided leadership visibility into program outcomes and operational metrics"
+      {
+      role: "Institutional Data Analyst (Contract)",
+      company: "Ho Technical University",
+      companylogo: require("./assets/images/HTU_logo.png"),
+      date: "Dec 2018 – Dec 2020",
+      desc: "Supported institutional reporting and operational decision-making by transitioning academic records into structured digital systems and delivering performance trend analysis.",
+      descBullets: [
+        "Designed relational data structures to digitize fragmented academic records, improving reporting accuracy and accessibility",
+        "Analyzed enrollment, curriculum, and student performance trends to support academic planning and administrative oversight",
+        "Developed recurring institutional reports that provided leadership visibility into program outcomes and operational metrics"
+      ]
+    }
   ]
-}
+};
 
 // Open Source
 const openSource = {

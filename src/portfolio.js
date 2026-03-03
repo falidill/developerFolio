@@ -1,5 +1,5 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 // Splash Screen
 const splashScreen = { 

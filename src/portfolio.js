@@ -123,7 +123,7 @@ const workExperiences = {
     {
       role: "JEDI Ambassador- Program and Institution Analytics",
       company: "University of New Haven",
-      companylogo: require("./assets/images/UNHlogo.png"),
+      companylogo: require("./assets/images/unhlogo.png"),
       date: "Feb 2024 – May 2025",
       desc: "Led institutional performance analytics to support student retention strategy, enrollment forecasting, and leadership decision-making across academic units.",
   descBullets: [

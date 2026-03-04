@@ -15,8 +15,9 @@ const illustration = {
 
 const greeting = {
   username: "Fali Honutse",
-  title: "Fali Honutse",
-  subTitle: "Analytics & Operations Professional | Healthcare & Regulated Systems | I use data to improve operational decision-making, performance measurement, and process efficiency.",
+  title: "Analytics & Operations Professional",
+  subTitle:
+    "Improving operational decision-making, performance measurement, and workflow efficiency in healthcare and regulated environments.",
   resumeLink: "",
   displayGreeting: true
 };
@@ -33,19 +34,18 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-     "ANALYTICS & OPERATIONS | HEALTHCARE / REGULATORY DECISION SUPPORT, KPI SYSTEMS, AND OPERATIONAL PERFORMANCE",
+     "OPERATIONAL ANALYTICS | DECISION SUPPORT | KPI SYSTEMS | PERFORMANCE IMPROVEMENT.",
   skills: [
-    emoji("⚡ Build performance measurement frameworks (KPIs, dashboards, reporting logic) that leadership can trust"),
-    emoji("⚡ Analyze operational workflows to identify bottlenecks, drivers of outcomes, and improvement opportunities"),
-    emoji("⚡ Deliver decision support through forecasting, segmentation, and scenario analysis—translated into clear recommendations")
+    emoji("⚡ Build performance measurement systems including KPIs, dashboards, and reporting frameworks"),
+    emoji("⚡ Analyze operational workflows to identify bottlenecks, performance drivers, and efficiency opportunities"),
+    emoji("⚡ Deliver decision-support insights through forecasting, segmentation, and structured data analysis")
   ],
   softwareSkills: [
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
-    { skillName: "AWS (S3)", fontAwesomeClassname: "fab fa-aws" }
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" }
   ],
   display: true
 };
@@ -121,7 +121,7 @@ const workExperiences = {
   ]
     },
     {
-      role: "JEDI Ambassador- Program and Institution Analytics",
+      role: "Program and Institution Analytics",
       company: "University of New Haven",
       companylogo: require("./assets/images/unhlogo.png"),
       date: "Feb 2024 – May 2025",
@@ -134,11 +134,11 @@ const workExperiences = {
   ]
     },
     {
-      role: "Assistant Administrative Assistant - Regulatory Analytics & Licensing Operations ",
+      role: "Operations & Regulatory Data Analyst ",
       company: "Allied Health Professions Council",
       companylogo: require("./assets/images/AHPC_ logo.png"),
       date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 6,000+ customers, developed dashboards, and improved outreach to underserved communities."
+      desc: "Streamlined workflows for 6,000+ health professionals, developed dashboards, and improved outreach to underserved communities."
     },
       {
       role: "Institutional Data Analyst (Contract)",

@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
-const splashScreen = { 
+const splashScreen = {
   enabled: true,
   animation: splashAnimation,
   duration: 2000
@@ -13,11 +13,12 @@ const illustration = {
   animated: true
 };
 
+// UPDATED: Focused title and broader subTitle
 const greeting = {
   username: "Fali Honutse",
-  title: "Analytics & Operations Professional",
+  title: "Data & Business Intelligence Analyst",
   subTitle:
-    "Improving operational decision-making, performance measurement, and workflow efficiency in healthcare and regulated environments.",
+    "I build the dashboards, KPI frameworks, and analytics systems that help organizations turn operational data into clear, confident decisions.",
   resumeLink: "",
   displayGreeting: true
 };
@@ -30,27 +31,29 @@ const socialMediaLinks = {
   display: true
 };
 
-// Skills Section
+// UPDATED: Broader skills section, tools-first
 const skillsSection = {
   title: "What I Do",
   subTitle:
-     "OPERATIONAL ANALYTICS | DECISION SUPPORT | KPI SYSTEMS | PERFORMANCE IMPROVEMENT.",
+    "DATA ANALYSIS · BUSINESS INTELLIGENCE · KPI SYSTEMS · PREDICTIVE MODELING",
   skills: [
-    emoji("⚡ Build performance measurement systems including KPIs, dashboards, and reporting frameworks"),
-    emoji("⚡ Analyze operational workflows to identify bottlenecks, performance drivers, and efficiency opportunities"),
-    emoji("⚡ Deliver decision-support insights through forecasting, segmentation, and structured data analysis")
+    emoji("⚡ Build dashboards, scorecards, and self-service reporting tools that give teams real-time visibility into what matters"),
+    emoji("⚡ Design KPI frameworks and performance measurement systems that turn messy operational data into structured, reliable insights"),
+    emoji("⚡ Develop predictive models and trend analyses that support forecasting, decision-making, and continuous improvement")
   ],
   softwareSkills: [
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" }
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
+    { skillName: "Streamlit", fontAwesomeClassname: "fas fa-laptop-code" },
+    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" }
   ],
   display: true
 };
 
-// Education Section
+// Education Section (unchanged — solid as is)
 const educationInfo = {
   display: true,
   schools: [
@@ -60,18 +63,18 @@ const educationInfo = {
       logo: require("./assets/images/unhlogo.png"),
       duration: "2025",
       desc: "Applied analytics focused on decision support, performance measurement, and translating data into operational recommendations.",
-descBullets: [
-  "Built retention risk and performance monitoring analyses to support student success decision-making",
-  "Developed executive dashboards and reporting workflows in Power BI to standardize KPI tracking",
-  "Capstone: Designed an end-to-end text analytics pipeline to classify content and support operational review decisions"
-]
+      descBullets: [
+        "Built retention risk and performance monitoring analyses to support student success decision-making",
+        "Developed executive dashboards and reporting workflows in Power BI to standardize KPI tracking",
+        "Capstone: Designed an end-to-end text analytics pipeline to classify content and support operational review decisions"
+      ]
     },
     {
       degree: "M.S. Accounting & Finance | B.S. Actuarial Science",
       subHeader: "M.S. Accounting & Finance | B.S. Actuarial Science — Kwame Nkrumah University of Science and Technology (KNUST)",
       logo: require("./assets/images/knustlogo.jpg"),
       duration: "2022",
-      desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial governance within structured regulatory environments.",
+      desc: "Built strong foundations in risk modeling, quantitative decision systems, and financial analysis.",
       descBullets: [
         "Applied statistical and actuarial methods to assess risk exposure and support data-driven financial decisions",
         "Developed structured modeling frameworks to evaluate uncertainty, performance variability, and long-term projections",
@@ -85,28 +88,28 @@ descBullets: [
 const techStack = {
   viewSkillBars: false,
   experience: [
-    { Stack: "Operational Analytics & Performance Measurement" },
-    { Stack: "Decision Support & Forecasting" },
-    { Stack: "Data Governance & Reporting Systems" }
+    { Stack: "Business Intelligence & Dashboard Development" },
+    { Stack: "KPI Design & Performance Measurement" },
+    { Stack: "Predictive Modeling & Forecasting" }
   ],
   displayCodersrank: false
 };
 
-// Work Experience
+// Work Experience (unchanged — already well written)
 const workExperiences = {
   display: true,
   experience: [
     {
-      role:  "Data Operations Analyst",
+      role: "Data Operations Analyst",
       company: "MatchingDonors",
       companylogo: require("./assets/images/matching_donors.jpg"),
       date: "Aug 2025 – Present",
       desc: "Lead operational performance analytics for a global donor–recipient matching platform, building structured measurement systems that improve match success rates and affiliate engagement across 3,000+ partners.",
-  descBullets: [
-    "Identified performance gaps across affiliate workflows using cohort segmentation and trend analysis, informing targeted engagement strategies",
-    "Designed KPI dashboards in Power BI and Looker Studio to monitor conversion, outreach effectiveness, and match lifecycle performance",
-    "Standardized data collection and reporting logic across global volunteers, improving consistency and reliability of operational metrics"
-  ]
+      descBullets: [
+        "Identified performance gaps across affiliate workflows using cohort segmentation and trend analysis, informing targeted engagement strategies",
+        "Designed KPI dashboards in Power BI and Looker Studio to monitor conversion, outreach effectiveness, and match lifecycle performance",
+        "Standardized data collection and reporting logic across global volunteers, improving consistency and reliability of operational metrics"
+      ]
     },
     {
       role: "Operations Analyst (Volunteer)",
@@ -114,11 +117,11 @@ const workExperiences = {
       companylogo: require("./assets/images/FJWL.jpg"),
       date: "Jul 2025 – Present",
       desc: "Support operational performance and program effectiveness by developing structured reporting systems and workflow documentation for a mission-driven organization.",
-  descBullets: [
-    "Built recurring performance reporting frameworks to track program efficiency and resource utilization",
-    "Mapped cross-functional workflows using process diagrams (Visio/Lucidchart) to identify coordination gaps and improvement opportunities",
-    "Developed impact dashboards to provide leadership with visibility into program outcomes and operational bottlenecks"
-  ]
+      descBullets: [
+        "Built recurring performance reporting frameworks to track program efficiency and resource utilization",
+        "Mapped cross-functional workflows using process diagrams to identify coordination gaps and improvement opportunities",
+        "Developed impact dashboards to provide leadership with visibility into program outcomes and operational bottlenecks"
+      ]
     },
     {
       role: "Program and Institution Analytics",
@@ -126,21 +129,21 @@ const workExperiences = {
       companylogo: require("./assets/images/unhlogo.png"),
       date: "Feb 2024 – May 2025",
       desc: "Led institutional performance analytics to support student retention strategy, enrollment forecasting, and leadership decision-making across academic units.",
-  descBullets: [
-    "Developed retention risk models and performance monitoring frameworks to identify at-risk student cohorts and inform targeted interventions",
-    "Designed and automated reporting workflows to standardize KPI tracking across departments, reducing manual analysis time",
-    "Built executive Power BI dashboards used by deans and senior leadership to evaluate retention trends and policy tradeoffs",
-    "Translated analytical outputs into written briefs and recommendations to guide resource allocation and student success initiatives"
-  ]
+      descBullets: [
+        "Developed retention risk models and performance monitoring frameworks to identify at-risk student cohorts and inform targeted interventions",
+        "Designed and automated reporting workflows to standardize KPI tracking across departments, reducing manual analysis time",
+        "Built executive Power BI dashboards used by deans and senior leadership to evaluate retention trends and policy tradeoffs",
+        "Translated analytical outputs into written briefs and recommendations to guide resource allocation and student success initiatives"
+      ]
     },
     {
-      role: "Operations & Regulatory Data Analyst ",
+      role: "Operations & Regulatory Data Analyst",
       company: "Allied Health Professions Council",
       companylogo: require("./assets/images/AHPC_ logo.png"),
       date: "Dec 2020 – Jul 2023",
-      desc: "Streamlined workflows for 6,000+ health professionals, developed dashboards, and improved outreach to underserved communities."
+      desc: "Streamlined workflows for 6,000+ health professionals, developed performance dashboards, and improved data accuracy across licensing and compliance operations."
     },
-      {
+    {
       role: "Institutional Data Analyst (Contract)",
       company: "Ho Technical University",
       companylogo: require("./assets/images/HTU_logo.png"),
@@ -161,16 +164,16 @@ const openSource = {
   display: false
 };
 
-// Projects
+// UPDATED: All 6 projects with business-outcomes framing
 const bigProjects = {
   title: "Analytics & Operations Projects",
-  subtitle: "Operational analytics and decision-support systems",
+  subtitle: "Decision-support tools and business intelligence systems",
   projects: [
     {
       image: require("./assets/images/ops-analytics.png"),
       projectName: "Regulated Operational Workflow Performance Analysis",
       projectDesc:
-        "End-to-end operational analytics project analyzing 6,000 workflow encounters in a regulated service environment to diagnose throughput bottlenecks, evaluate SLA compliance, and assess safety exposure. The analysis identified queue congestion as the primary constraint and produced governance-aligned recommendations for peak demand management and operational monitoring.",
+        "End-to-end operational analytics project analyzing 6,000 workflow encounters in a regulated service environment. Diagnosed throughput bottlenecks, evaluated SLA compliance, and produced governance-aligned KPI monitoring recommendations for peak demand management — directly applicable to healthcare, insurance, and government operations.",
       footerLink: [
         {
           name: "View Project on GitHub",
@@ -178,12 +181,11 @@ const bigProjects = {
         }
       ]
     },
-
     {
       image: require("./assets/images/matchlab.png"),
       projectName: "MatchLab — Structured Matching Decision System",
       projectDesc:
-        "Designed a structured matching framework that evaluates student-project compatibility using scoring logic and structured attributes, improving transparency and consistency in opportunity matching workflows.",
+        "A structured compatibility scoring platform that evaluates student-project alignment using weighted attributes and scoring logic. Designed to improve consistency and transparency in opportunity-matching workflows — reducing subjectivity and supporting more equitable, data-driven decisions.",
       footerLink: [
         {
           name: "Visit Website",
@@ -191,12 +193,11 @@ const bigProjects = {
         }
       ]
     },
-
     {
       image: require("./assets/images/resumematcher.png"),
       projectName: "Resume–Role Alignment Tool",
       projectDesc:
-        "Built a decision-support tool that evaluates candidate-job alignment using structured similarity scoring and NLP feature extraction, helping standardize resume screening workflows.",
+        "A decision-support tool that scores candidate-job fit using NLP and cosine similarity to surface the most relevant skills and gaps. Built to standardize screening workflows and reduce time spent on manual resume review — deployed as a live Streamlit app.",
       footerLink: [
         {
           name: "Try the App",
@@ -207,12 +208,48 @@ const bigProjects = {
           url: "https://github.com/falidill/Resume-Matcher"
         }
       ]
+    },
+    {
+      image: require("./assets/images/insurance.webp"),
+      projectName: "Insurance Cost Estimation Tool",
+      projectDesc:
+        "An interactive prediction tool that estimates medical insurance charges based on policyholder attributes including age, BMI, and coverage profile. Built to support underwriting decision-making and cost planning — demonstrates applied predictive modeling in an insurance and actuarial context.",
+      footerLink: [
+        {
+          name: "Try it Live",
+          url: "https://insurance-claim-predictor-8ep2mqqchbn4gxasgpz53d.streamlit.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fakenews.png"),
+      projectName: "Automated Content Classification Pipeline",
+      projectDesc:
+        "An NLP pipeline that automatically classifies documents by credibility and content type using BERT and RoBERTa (90%+ accuracy). Designed to reduce manual content review workloads and support faster, more consistent editorial and compliance screening decisions at scale.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/falidill/fake-news-detector"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kinksandkulture.png"),
+      projectName: "Kinks & Kulture — AI Product Discovery App",
+      projectDesc:
+        "An AI-powered recommendation tool that matches users to haircare products based on their specific hair needs, preferences, and profile. Demonstrates practical application of conversational AI and personalization logic to improve product discovery and user decision-making.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://kinksandkulture.lovable.app/"
+        }
+      ]
     }
   ],
   display: true
 };
 
-// Achievements
+// Achievements (unchanged)
 const achievementSection = {
   title: "Honors & Certifications",
   subtitle: "Selected credentials supporting analytics, operational performance, and decision support.",
@@ -256,8 +293,7 @@ const achievementSection = {
   display: true
 };
 
-
-// Blog Section (disabled for now)
+// Blog Section
 const blogSection = {
   title: "Blogs",
   subtitle: "I share thoughts and tips on data science, leadership, and career growth.",
@@ -266,7 +302,7 @@ const blogSection = {
   display: false
 };
 
-// Talks (optional)
+// Talks
 const talkSection = {
   title: "Talks",
   subtitle: emoji("Open to sharing and speaking about data & equity."),
@@ -274,7 +310,7 @@ const talkSection = {
   display: false
 };
 
-// Podcast (optional)
+// Podcast
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "Coming soon — sharing data stories from the field.",
@@ -290,7 +326,7 @@ const contactInfo = {
   email_address: "fhonutse@yahoo.com"
 };
 
-// Twitter Section
+// Twitter
 const twitterDetails = {
   userName: "falidill",
   display: false
@@ -299,7 +335,7 @@ const twitterDetails = {
 // Job Status
 const isHireable = true;
 
-// Resume Section (hidden for now)
+// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Download my resume",

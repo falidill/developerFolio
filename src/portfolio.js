@@ -124,7 +124,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Program and Institution Analytics",
+      role: "Data Analyst (Program Analytics)",
       company: "University of New Haven",
       companylogo: require("./assets/images/unhlogo.png"),
       date: "Feb 2024 – May 2025",
@@ -144,7 +144,7 @@ const workExperiences = {
       desc: "Streamlined workflows for 6,000+ health professionals, developed performance dashboards, and improved data accuracy across licensing and compliance operations."
     },
     {
-      role: "Institutional Data Analyst (Contract)",
+      role: "Institutional Data Analyst",
       company: "Ho Technical University",
       companylogo: require("./assets/images/HTU_logo.png"),
       date: "Dec 2018 – Dec 2020",
@@ -249,23 +249,30 @@ const bigProjects = {
   display: true
 };
 
-// Achievements (unchanged)
+// Achievements — updated with full recommended list
 const achievementSection = {
-  title: "Honors & Certifications",
-  subtitle: "Selected credentials supporting analytics, operational performance, and decision support.",
+  title: emoji("Honors & Certifications 🏆"),
+  subtitle: "Selected credentials supporting analytics, business intelligence, and decision support.",
   achievementsCards: [
     {
       title: "Six Sigma Green Belt",
-      subtitle: "Council for Six Sigma Certification",
+      subtitle: "The Council for Six Sigma Certification",
       image: require("./assets/images/six_sigma_green_belt.png"),
       imageAlt: "Six Sigma Green Belt Certification",
       footerLink: []
     },
     {
-      title: "Oracle Cloud Infrastructure — Certified Data Science Professional",
+      title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
       subtitle: "Oracle University",
       image: require("./assets/images/Certified_data_science.png"),
       imageAlt: "Oracle Data Science Certification",
+      footerLink: []
+    },
+    {
+      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      subtitle: "Oracle University",
+      image: require("./assets/images/GenAI.png"),
+      imageAlt: "Oracle Generative AI Certification",
       footerLink: []
     },
     {
@@ -276,7 +283,7 @@ const achievementSection = {
       footerLink: []
     },
     {
-      title: "Deloitte Data Analytics Virtual Experience",
+      title: "Deloitte Data Analytics Virtual Internship",
       subtitle: "Forage",
       image: require("./assets/images/Deloitte_certification.png"),
       imageAlt: "Deloitte Data Analytics Virtual Experience",
@@ -287,6 +294,32 @@ const achievementSection = {
       subtitle: "Women in Data Science Worldwide",
       image: require("./assets/images/WiDS_.png"),
       imageAlt: "WiDS Ambassador",
+      footerLink: []
+    },
+    {
+      title: "Order of the Engineer",
+      subtitle: "University of New Haven",
+      image: require("./assets/images/orderoftheengineer.png"),
+      imageAlt: "Order of the Engineer",
+      footerLink: []
+    },
+    {
+      title: "Dean's List",
+      subtitle: "University of New Haven",
+      image: require("./assets/images/unhlogo.png"),
+      imageAlt: "Dean's List Honors",
+      footerLink: []
+    },
+    {
+      title: "More Certifications",
+      subtitle: `• Machine Learning with Scikit-learn
+- Predictive Analytics: Data Mining
+- MLOps Essentials
+- DevOps for Data Scientists
+- SQL Essential Training
+- Data Science Foundations`,
+      image: require("./assets/images/linkedin.png"),
+      imageAlt: "Additional Certifications",
       footerLink: []
     }
   ],
